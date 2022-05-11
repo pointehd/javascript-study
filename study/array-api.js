@@ -1,9 +1,22 @@
+// push 제일 뒤에 데이터 추가
+// pop : 마지막 데이터 삭제
+// unshift : 제일 앞 데이터 추가  (느림주의)
+// shift : 제일앞 데이터 삭제 (느림)
+// splice : 데이터 삭제 & 추가 할수 있음
+// concat : 두배열을 합침
+// indexOf : 문자 있는지 인덱스 검색
+// includes : 문자 있는지 true, false 로 반환
+// lastIndexOf :
+
+///////////////////////////////////////
+
 {
   // 1. join
   const fruits = ["apple", "banana", "orange"];
   const result = fruits.join();
   console.log(result);
 }
+JSON.stringify;
 
 {
   // 2. split
